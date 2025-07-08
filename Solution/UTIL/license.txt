@@ -1,0 +1,79 @@
+                  LICENSE  AGREEMENT  FOR CDBF
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               Copyright (c) WhiteTown Software 1997-2012
+
+                       S H A R E W A R E
+
+This  Program  is  distributed as ShareWare: you are granted the
+right to evaluate the program for a maximum of  30  days  before
+paying the author. After the evaluation period, you are required
+to register or stop using the Program.
+
+You are encouraged to distribute  the  original  and  unmodified
+package  freely, in  any  form and on any media, provided you do
+not charge any fee for the Program itself.
+
+The Program could be included in CDROM collections, subscription
+download  areas,  BBS  packages,  provided  it  remains  in  its
+complete and unmodified original archive.
+
+In  any  case, the  user must register with the author after the
+evaluation period.
+
+The inclusion of the Program as part of a software package to be
+distributed always requires a special distribution license.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                       D I S C L A I M E R
+
+The  Program is provided on an "as is" basis without warranty of
+any kind, expressed or implied, including but not limited to the
+implied   warranties   of  merchantability  and  fitness  for  a
+particular purpose. The person using the software bears all risk
+as to the quality and performance of the Program.
+
+The  author  will  not  be  liable  for any special, incidental,
+consequential, indirect or similar damages  due  to loss of data
+or any other reason.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                   S U P P O R T   S I T E S
+http://www.whitetown.com
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                        L I C E N S E S
+
+Personal license
+    Allows you to use CDBF by one person only (at work or at home
+    or both).
+
+Business license
+    Allows you to use CDBF by a small company on 2-10 computers.
+
+Site license
+    Allows you to use CDBF by one company on any number of computers,
+    located in one office (within one LAN).
+
+World-wide license
+    Allows you to use CDBF by one company on any number of computers
+    anywhere.
+
+Price-list:
+           Personal license  :   $39.95
+           Business license  :   $99.00
+           Site license      :  $199.00
+           World-wide license:  $599.00
+
+The different ways to purchase and register CDBF your can find here:
+    http://www.whitetown.com/order/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For  more  registration information and latest price information
+contact:
+
+Sergey Chehuta
+Email: sales@whitetown.com

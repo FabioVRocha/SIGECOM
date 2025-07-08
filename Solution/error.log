@@ -1,0 +1,200 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 07/02/2017
+Time...............: 11:04:00
+
+Application name...: Z:\SOLUTION.EXE
+Workstation name...: CLIENTE-PC
+Available memory...: 1343720
+Current disk.......: Z
+Current directory..: 
+Free disk space....: 296332398592
+
+Operating system...: Windows 7 Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour 1.2.3 Intl. (SimpLex) (Build 20121213)
+xHarbour built on..: Jan  4 2013 13:49:10
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+Current Area ......:7
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: ON
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .T.
+SET CANCEL.........: ON
+SET CENTURY........: ON
+SET COLOR..........: W+/BG,GR+/R,N/N,N/N,GR+/B
+SET CONFIRM........: OFF
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 1
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 2
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: OFF
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1930
+SET ERRORLOG.......: ERROR.LOG,.F.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: ON
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: OFF
+SET MESSAGE........: 0
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+Work Area No ......: 1
+Alias .............: CONTROLE
+Current Recno .....: 1
+Current Filter ....: 
+Relation Exp. .....: 
+Index Order .......: 0
+Active Key ........: 
+
+Work Area No ......: 2
+Alias .............: SITUACAO
+Current Recno .....: 1
+Current Filter ....: 
+Relation Exp. .....: 
+Index Order .......: 1
+Active Key ........: SIGEST
+
+Work Area No ......: 3
+Alias .............: ARQSAL
+Current Recno .....: 27
+Current Filter ....: 
+Relation Exp. .....: 
+Index Order .......: 1
+Active Key ........: CODMVF+DTOS(DATSAL)
+
+Work Area No ......: 4
+Alias .............: ARQCON
+Current Recno .....: 1
+Current Filter ....: 
+Relation Exp. .....: 
+Index Order .......: 1
+Active Key ........: CODCON
+
+Work Area No ......: 5
+Alias .............: ARQMVF
+Current Recno .....: 1
+Current Filter ....: 
+Relation Exp. .....: 
+Index Order .......: 1
+Active Key ........: CODMVF
+
+Work Area No ......: 6
+Alias .............: ARQCAI
+Current Recno .....: 28323
+Current Filter ....: 
+Relation Exp. .....: 
+Index Order .......: 1
+Active Key ........: CODMVF+DTOS(DATCAI)
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFNTX
+System Code .......: 1004
+Default Status ....: .T.
+Description .......: Erro de cria눯o
+Operation .........: 
+Arguments .........: 
+Involved File .....: Z:\Tm110359.dbf
+Dos Error Code ....: 32
+
+ Trace Through:
+----------------
+__DBCOPY              :       0 in Module: 
+MANCAI                :     114 in Module: MANCAI.PRG
+(b)MEMCAI             :     373 in Module: MENUS.PRG
+MEMCAI                :     440 in Module: MENUS.PRG
+(b)MENUMAN            :      83 in Module: MENUS.PRG
+MENUMAN               :     146 in Module: MENUS.PRG
+(b)MENUPRI            :      19 in Module: MENUS.PRG
+MENUPRI               :      53 in Module: MENUS.PRG
+MAIN                  :     371 in Module: SOLUTION.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|납                                                                            납|
+|납                                                                            납|
+|납                                                                            납|
+|납                                                                            납|
+|납                                                                            납|
+|납                                                                            납|
+|납                                                                            납|
+|납                                                                            납|
+|납                                                                            납|
+|납                                                                            납|
+|냉컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴눴|
+|납                                                                            납|
+|쳄컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴募|
+|�                         Aguarde... Em Processamento!                         �|
+|Error DBFNTX/1004  Erro de cria눯o: Z:\Tm110359.dbf (DOS Error 32)컴캑Esc Sai쵬|
+|                                                                                |
+|Error at ...: __DBCOPY(0) in Module:                                            |
+|Called from : MANCAI(114) in Module: MANCAI.PRG                                 |
+|Called from : (b)MEMCAI(373) in Module: MENUS.PRG                               |
+|Called from : MEMCAI(440) in Module: MENUS.PRG                                  |
+|Called from : (b)MENUMAN(83) in Module: MENUS.PRG                               |
+|Called from : MENUMAN(146) in Module: MENUS.PRG                                 |
+|Called from : (b)MENUPRI(19) in Module: MENUS.PRG                               |
+|Called from : MENUPRI(53) in Module: MENUS.PRG                                  |
+|Called from : MAIN(371) in Module: SOLUTION.PRG                                 |
++--------------------------------------------------------------------------------+
+
+

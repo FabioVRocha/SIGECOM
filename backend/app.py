@@ -1,13 +1,10 @@
 from flask import Flask, render_template
-from config import Config
+from backend.config import Config
 from dotenv import load_dotenv
 
-from .extensions import db
-from .modules.cadastros import Cliente
+from backend.extensions import db
+from backend.modules.cadastros import Cliente
 
-from .config import Config
-from . import db
-from .models import Cliente
 
 load_dotenv()
 
@@ -20,9 +17,9 @@ def create_app():
     with app.app_context():
         db.create_all()
 
-    from .cadastros.routes import cadastros_bp
-    from .estoque.routes import estoque_bp
-    from .vendas.routes import vendas_bp
+    from backend.cadastros.routes import cadastros_bp
+    from backend.estoque.routes import estoque_bp
+    from backend.vendas.routes import vendas_bp
 
     app.register_blueprint(cadastros_bp)
     app.register_blueprint(estoque_bp)

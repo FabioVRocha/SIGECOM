@@ -1,0 +1,39 @@
+CDBF can fix some errors in a header of the DBF file.
+You can select a row by pressing Ctrl-Enter.
+CDBF can export information to TXT, PRG, XLS, SQL, DBF, CSV, XML formats.
+You can adjust columns width by pressing Ctrl-J.
+You can make your own reports with help of the built-in Designer: Menu File - Print - External - Designer.
+CDBF can add information from .txt, .csv or another .dbf file.
+You can fill a field with an incremental value in the dialog Fill.
+CDBF can export information to Excel.
+You can select a few cells using Shift+Arrows.
+CDBF allows you to delete duplicated records.
+You can copy a selected region to the clipboard and then paste it in another place, another file or another program.
+CDBF supports dBase III, dBase IV, Foxpro, Visual FoxPro and dBase Level 7 files.
+You can select cells in Excel file, copy them to the clipboard and then paste them in CDBF.
+CDBF runs under Windows, DOS and Linux.
+You can copy a structure of a table to the clipboard in different formats in the dialog 'Fields info'.
+To set a filter by a Date field you have to use the following expression: FIELD=DTOS('08.08.2003')
+The command 'Group by' allows you to summarize a table by certain fields.
+The command 'Compare' allows you to compare two tables by sight, and copy values from one table to another.
+You can minimize CDBF by pressing Shift-Escape.
+You can print tables content.
+You can review a table in a reverse order.
+You can apply a filter to a table.
+You can sort a table by one or several fields.
+Advanced users can edit a header of the table directly.
+CDBF supports a plugin system. You can create your own plugins, which perform some useful for you things.
+You can search and replace information in memo fields! See additional options in the dialog 'Find & Replace'.
+You can quickly set a filter by value under cursor by pressing Ctrl-E.
+As soon as you are registered, (until further notice) all updates are free, provided that you get the latest version yourself by downloading it. This has been the case since version 1.0. 
+CDBF can import information from TXT, CSV, XLS, DBF files.
+You can write and plug in your own import modules.
+CDBF can display only deleted records. Menu View - Show only deleted records.
+You can define a precision in the Calculator.
+CDBF allows you to edit fields in a hex mode. Ctrl-H.
+A new function 'Relations'. It allows you to view linked tables. Menu Tools-Relations.
+CDBF now supports SMT memo fields.
+You can calculate a sum or an avarage of a the selected region.
+If you are a registered customer then you can purchase any our software with a discount.
+You can set a new type of filter: a field does not contain a string. FIELDNAME^SubString 
+You can use "Projects": save and load tables' settings and windows' positions .

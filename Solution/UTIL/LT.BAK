@@ -1,0 +1,7 @@
+del *.ntx
+del *.obj
+del *.bak
+del tm*
+del temp*.txt
+CLS
+

@@ -5,11 +5,9 @@
     <title>SIGECOM</title>
 </head>
 <body>
-    <h1>Clientes</h1>
-    <ul>
-        {% for cliente in clientes %}
-        <li>{{ cliente.nome }}</li>
-        {% endfor %}
-    </ul>
+    <h1>Bem-vindo ao SIGECOM</h1>
+    <nav>
+        <a href="{{ url_for('cadastros_bp.list_clientes') }}">Cadastros</a>
+    </nav>
 </body>
 </html>

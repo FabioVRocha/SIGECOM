@@ -1,6 +1,10 @@
 # SIGECOM Backend
 
 This repository contains a minimal Flask application with SQLAlchemy.
+Recent updates introduced skeleton modules covering the main areas of the
+SIGECOM system such as cadastros, estoque, vendas, compras, financeiro,
+relatórios e configurações. Each module defines basic SQLAlchemy models that
+can be expanded in the future.
 
 ## Configuration
 

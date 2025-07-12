@@ -1,0 +1,723 @@
+CREATE TABLE arqami (
+    codami VARCHAR(4),
+    nomami VARCHAR(45),
+    endami VARCHAR(40),
+    baiami VARCHAR(30),
+    cidami VARCHAR(30),
+    estami VARCHAR(2),
+    cepami VARCHAR(8),
+    fonami VARCHAR(13),
+    faxami VARCHAR(13),
+    celami VARCHAR(13),
+    email VARCHAR(57),
+    obsami VARCHAR(57),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqcai (
+    codmvf VARCHAR(4),
+    datcai DATE,
+    doccai VARCHAR(15),
+    valcai NUMERIC(11,2),
+    hiscai VARCHAR(35),
+    codcon VARCHAR(4),
+    codpag VARCHAR(1),
+    sitcai VARCHAR(1),
+    ecaixa VARCHAR(1),
+    blocai VARCHAR(1),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4),
+    docreg VARCHAR(30)
+);
+
+CREATE TABLE arqcat (
+    codcat VARCHAR(2),
+    nomcat VARCHAR(30),
+    sigcat VARCHAR(3),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqcla (
+    codcla VARCHAR(4),
+    nomcla VARCHAR(30),
+    minpro NUMERIC(12,3),
+    maxpro NUMERIC(12,3),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqcli (
+    pescli VARCHAR(1),
+    codcli VARCHAR(5),
+    nomcli VARCHAR(45),
+    fancli VARCHAR(45),
+    cpfcli VARCHAR(11),
+    rgcli VARCHAR(20),
+    cgccli VARCHAR(14),
+    cgfcli VARCHAR(20),
+    nascli DATE,
+    endcli VARCHAR(40),
+    baicli VARCHAR(30),
+    cidcli VARCHAR(30),
+    estcli VARCHAR(2),
+    ecvcli VARCHAR(1),
+    sexcli VARCHAR(1),
+    cepcli VARCHAR(8),
+    foncli VARCHAR(13),
+    celcli VARCHAR(13),
+    faxcli VARCHAR(13),
+    paicli VARCHAR(40),
+    maecli VARCHAR(40),
+    email VARCHAR(59),
+    obscli VARCHAR(59),
+    nsoci1 VARCHAR(40),
+    nsoci2 VARCHAR(40),
+    cadcli DATE,
+    lcredi NUMERIC(11,2),
+    concli VARCHAR(1),
+    cokcli VARCHAR(1),
+    spccli VARCHAR(1),
+    spccl1 VARCHAR(1),
+    tpcobr VARCHAR(2),
+    tplimi VARCHAR(2),
+    tpprec VARCHAR(2),
+    catcli VARCHAR(2),
+    nmorig VARCHAR(1),
+    protes VARCHAR(1),
+    cdvend VARCHAR(4),
+    rccheq VARCHAR(1),
+    hiscli TEXT,
+    zapcli VARCHAR(20),
+    pdccli NUMERIC(11,2),
+    altcli DATE,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqcob (
+    codcob VARCHAR(2),
+    nomcob VARCHAR(30),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqcon (
+    codcon VARCHAR(4),
+    nomcon VARCHAR(30),
+    balcon VARCHAR(1),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqent (
+    codfor VARCHAR(5),
+    nforne VARCHAR(45),
+    docent VARCHAR(10),
+    datent DATE,
+    emient DATE,
+    sitent VARCHAR(1),
+    descli NUMERIC(11,2),
+    desent NUMERIC(11,2),
+    totent NUMERIC(11,2),
+    bicms NUMERIC(11,2),
+    vricms NUMERIC(11,2),
+    bicmss NUMERIC(11,2),
+    vrics NUMERIC(11,2),
+    vrfret NUMERIC(11,2),
+    vrsegu NUMERIC(11,2),
+    vroutr NUMERIC(11,2),
+    vripi NUMERIC(11,2),
+    totliq NUMERIC(11,2),
+    nparce INTEGER,
+    gparce VARCHAR(1),
+    texent TEXT,
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqfor (
+    pesfor VARCHAR(1),
+    codfor VARCHAR(5),
+    nomfor VARCHAR(45),
+    fanfor VARCHAR(45),
+    cgcfor VARCHAR(14),
+    cgffor VARCHAR(14),
+    cpffor VARCHAR(11),
+    rgfor VARCHAR(14),
+    endfor VARCHAR(40),
+    baifor VARCHAR(30),
+    cidfor VARCHAR(30),
+    estfor VARCHAR(2),
+    cepfor VARCHAR(8),
+    fonfor VARCHAR(13),
+    faxfor VARCHAR(13),
+    celfor VARCHAR(13),
+    email VARCHAR(57),
+    obsfor VARCHAR(57),
+    contat VARCHAR(40),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqfun (
+    codfun VARCHAR(4),
+    nomfun VARCHAR(45),
+    cpffun VARCHAR(11),
+    rgfun VARCHAR(20),
+    nasfun DATE,
+    endfun VARCHAR(40),
+    baifun VARCHAR(30),
+    cidfun VARCHAR(30),
+    estfun VARCHAR(2),
+    cepfun VARCHAR(8),
+    fonfun VARCHAR(13),
+    celfun VARCHAR(13),
+    funfun VARCHAR(30),
+    email VARCHAR(57),
+    obsfun VARCHAR(57),
+    sitfun VARCHAR(1),
+    datfun DATE,
+    salfun NUMERIC(13,2),
+    cadfun DATE,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqgru (
+    codgru VARCHAR(4),
+    nomgru VARCHAR(30),
+    lucgru NUMERIC(11,3),
+    comgru NUMERIC(11,4),
+    cusgru NUMERIC(11,2),
+    cmpgru NUMERIC(11,2),
+    venbgr NUMERIC(11,2),
+    vengru NUMERIC(11,2),
+    vengr1 NUMERIC(11,2),
+    icmgru NUMERIC(11,2),
+    ipigru NUMERIC(11,2),
+    fregru NUMERIC(11,2),
+    outgru NUMERIC(11,2),
+    ifegru NUMERIC(11,2),
+    percus NUMERIC(11,2),
+    percen NUMERIC(11,2),
+    perce1 NUMERIC(11,2),
+    perce3 NUMERIC(11,2),
+    perce4 NUMERIC(11,2),
+    arrgru NUMERIC(11,2),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqgxf (
+    cdforn VARCHAR(5),
+    cdgrup VARCHAR(4),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqinv (
+    numinv VARCHAR(6),
+    codfun VARCHAR(4),
+    datinv DATE,
+    sitinv VARCHAR(1),
+    datfec DATE,
+    totliq NUMERIC(11,2),
+    texinv TEXT,
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqkit (
+    codkit VARCHAR(4),
+    nomkit VARCHAR(30),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqkxp (
+    codkit VARCHAR(4),
+    codpro VARCHAR(5),
+    nomkxp VARCHAR(41),
+    quakxp NUMERIC(12,3),
+    valkxp NUMERIC(13,2),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqlim (
+    codlim VARCHAR(2),
+    nomlim VARCHAR(30),
+    vallim NUMERIC(9,2),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqmvf (
+    codmvf VARCHAR(4),
+    nommvf VARCHAR(30),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqorc (
+    numorc VARCHAR(6),
+    cliorc VARCHAR(45),
+    codfun VARCHAR(4),
+    datorc DATE,
+    sitorc VARCHAR(1),
+    tpreco VARCHAR(1),
+    datfec DATE,
+    codpp1 VARCHAR(4),
+    codpp2 VARCHAR(4),
+    codpp3 VARCHAR(4),
+    codpp4 VARCHAR(4),
+    venorc VARCHAR(75),
+    carcre VARCHAR(15),
+    desorc NUMERIC(11,2),
+    totorc NUMERIC(11,2),
+    totliq NUMERIC(11,2),
+    texorc TEXT,
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqpcm (
+    numpcm VARCHAR(6),
+    codfor VARCHAR(5),
+    nforne VARCHAR(45),
+    codfun VARCHAR(4),
+    datpcm DATE,
+    sitpcm VARCHAR(1),
+    datfec DATE,
+    descli NUMERIC(11,2),
+    despcm NUMERIC(11,2),
+    totpcm NUMERIC(11,2),
+    totliq NUMERIC(11,2),
+    texpcm TEXT,
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqppg (
+    codppg VARCHAR(4),
+    nomppg VARCHAR(30),
+    jurppg NUMERIC(9,2),
+    parppg INTEGER,
+    prippg INTEGER,
+    segppg INTEGER,
+    rcbfit VARCHAR(1),
+    apldes VARCHAR(1),
+    apllcr VARCHAR(1),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqpag (
+    datdoc DATE,
+    docpag VARCHAR(15),
+    codfor VARCHAR(5),
+    valpag NUMERIC(11,2),
+    venpag DATE,
+    jurdes NUMERIC(11,2),
+    pagpag NUMERIC(11,2),
+    datpag DATE,
+    hispag VARCHAR(35),
+    lanmvt VARCHAR(1),
+    codmvf VARCHAR(4),
+    codcon VARCHAR(4),
+    codpag VARCHAR(1),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4),
+    docped VARCHAR(13),
+    docreg VARCHAR(30)
+);
+
+CREATE TABLE arqped (
+    numped VARCHAR(6),
+    tipped VARCHAR(1),
+    tpreco VARCHAR(1),
+    codcli VARCHAR(5),
+    nclien VARCHAR(45),
+    codfun VARCHAR(4),
+    datped DATE,
+    sitped VARCHAR(1),
+    datfec DATE,
+    codppg VARCHAR(4),
+    codmvf VARCHAR(4),
+    codcon VARCHAR(4),
+    descli NUMERIC(11,2),
+    desped NUMERIC(11,2),
+    totped NUMERIC(11,2),
+    totliq NUMERIC(11,2),
+    totcom NUMERIC(11,2),
+    totcli NUMERIC(11,2),
+    linha1 VARCHAR(35),
+    linha2 VARCHAR(35),
+    linha3 VARCHAR(35),
+    linha4 VARCHAR(35),
+    linha5 VARCHAR(35),
+    texped TEXT,
+    cupfis VARCHAR(1),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqpre (
+    codpre VARCHAR(2),
+    nompre VARCHAR(30),
+    tippre VARCHAR(1),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqpro (
+    codpro VARCHAR(5),
+    codgru VARCHAR(4),
+    codsub VARCHAR(4),
+    codcla VARCHAR(4),
+    nompro VARCHAR(45),
+    codbar VARCHAR(45),
+    codfor VARCHAR(5),
+    cbarra VARCHAR(13),
+    unipro VARCHAR(5),
+    lucpro NUMERIC(11,3),
+    estpro NUMERIC(12,3),
+    minpro NUMERIC(12,3),
+    maxpro NUMERIC(12,3),
+    compro NUMERIC(11,4),
+    cuspro NUMERIC(11,2),
+    cmppro NUMERIC(11,2),
+    venpro NUMERIC(11,2),
+    venpr1 NUMERIC(11,2),
+    venrev NUMERIC(11,2),
+    vencar NUMERIC(11,2),
+    comven NUMERIC(11,2),
+    icmpro NUMERIC(11,2),
+    ipipro NUMERIC(11,2),
+    frepro NUMERIC(11,2),
+    outpro NUMERIC(11,2),
+    ifepro NUMERIC(11,2),
+    tripro VARCHAR(3),
+    aplpro VARCHAR(45),
+    locpro VARCHAR(13),
+    movpro VARCHAR(1),
+    apreco VARCHAR(1),
+    ultcom DATE,
+    ultven DATE,
+    ultfor VARCHAR(5),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4),
+    regist INTEGER
+);
+
+CREATE TABLE arqrec (
+    datrec DATE,
+    bcorec VARCHAR(3),
+    agerec VARCHAR(5),
+    donche VARCHAR(35),
+    docrec VARCHAR(15),
+    codcli VARCHAR(5),
+    valrec NUMERIC(11,2),
+    venrec DATE,
+    jurde1 NUMERIC(11,2),
+    jurdes NUMERIC(11,2),
+    pagrec NUMERIC(11,2),
+    datpag DATE,
+    hisrec VARCHAR(35),
+    lanmvt VARCHAR(1),
+    codmvf VARCHAR(4),
+    codcon VARCHAR(4),
+    codpag VARCHAR(1),
+    docped VARCHAR(10),
+    codfun VARCHAR(4),
+    resrec VARCHAR(1),
+    obsrec VARCHAR(35),
+    percom NUMERIC(9,2),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4),
+    docreg VARCHAR(30)
+);
+
+CREATE TABLE arqret (
+    datret DATE,
+    docret VARCHAR(15),
+    codfun VARCHAR(4),
+    valret NUMERIC(11,2),
+    hisret VARCHAR(35),
+    tipret VARCHAR(1),
+    datpag DATE,
+    codmvf VARCHAR(4),
+    codcon VARCHAR(4),
+    codpag VARCHAR(1),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4),
+    docreg VARCHAR(30)
+);
+
+CREATE TABLE arqsai (
+    codfun VARCHAR(4),
+    docsai VARCHAR(10),
+    datsai DATE,
+    codpro VARCHAR(5),
+    codgru VARCHAR(4),
+    quasai NUMERIC(12,3),
+    cussai NUMERIC(11,2),
+    valsai NUMERIC(11,2),
+    totsai NUMERIC(12,2),
+    comsai NUMERIC(11,2),
+    e_atua NUMERIC(11,2),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqsal (
+    codmvf VARCHAR(4),
+    datsal DATE,
+    antsal NUMERIC(11,2),
+    cresal NUMERIC(11,2),
+    debsal NUMERIC(11,2),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqtex (
+    codtex VARCHAR(4),
+    nomtex VARCHAR(30),
+    destex TEXT,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqtra (
+    codfun VARCHAR(4),
+    doctra VARCHAR(10),
+    dattra DATE,
+    codpr1 VARCHAR(5),
+    nompr1 VARCHAR(45),
+    codpr2 VARCHAR(5),
+    nompr2 VARCHAR(45),
+    quapr1 NUMERIC(12,3),
+    quapr2 NUMERIC(12,3),
+    e_atu1 NUMERIC(11,2),
+    e_atu2 NUMERIC(11,2),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arquni (
+    coduni VARCHAR(5),
+    nomuni VARCHAR(30),
+    frauni VARCHAR(1),
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE arqusu (
+    codusu VARCHAR(4),
+    nomusu VARCHAR(20),
+    senusu VARCHAR(9),
+    nivusu INTEGER,
+    funusu VARCHAR(4),
+    mvfusu VARCHAR(4),
+    desusu NUMERIC(9,2),
+    autcob VARCHAR(1),
+    auttpr VARCHAR(1),
+    autcon VARCHAR(1),
+    autsit VARCHAR(1),
+    autusu VARCHAR(1),
+    autdes VARCHAR(1),
+    dtlanc VARCHAR(1),
+    autven VARCHAR(1),
+    aceusu VARCHAR(32)
+);
+
+CREATE TABLE proent (
+    codfor VARCHAR(5),
+    docent VARCHAR(10),
+    codpro VARCHAR(5),
+    desven VARCHAR(45),
+    cbarra VARCHAR(13),
+    codgru VARCHAR(4),
+    quaent NUMERIC(12,3),
+    valent NUMERIC(11,4),
+    totent NUMERIC(12,2),
+    cusent NUMERIC(11,2),
+    lucent NUMERIC(11,2),
+    venent NUMERIC(11,2),
+    venen1 NUMERIC(11,2),
+    venen3 NUMERIC(11,2),
+    venen4 NUMERIC(11,2),
+    icment NUMERIC(11,2),
+    ipient NUMERIC(11,2),
+    freent NUMERIC(11,2),
+    ifeent NUMERIC(11,2),
+    outent NUMERIC(11,2),
+    e_atua NUMERIC(11,2),
+    baipro VARCHAR(1),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE proinv (
+    numinv VARCHAR(6),
+    codpro VARCHAR(5),
+    cbarra VARCHAR(13),
+    despro VARCHAR(45),
+    estini NUMERIC(12,3),
+    quainv NUMERIC(12,3),
+    estfin NUMERIC(12,3),
+    cusinv NUMERIC(11,2),
+    totinv NUMERIC(12,2),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE proorc (
+    numorc VARCHAR(6),
+    codpro VARCHAR(5),
+    cbarra VARCHAR(13),
+    despro VARCHAR(45),
+    quaorc NUMERIC(12,3),
+    cusorc NUMERIC(11,2),
+    valorc NUMERIC(11,2),
+    totorc NUMERIC(12,2),
+    aliecf VARCHAR(3),
+    comorc NUMERIC(11,2),
+    baipro VARCHAR(1),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE propcm (
+    numpcm VARCHAR(6),
+    codpro VARCHAR(5),
+    cbarra VARCHAR(13),
+    despro VARCHAR(45),
+    quapcm NUMERIC(12,3),
+    valpcm NUMERIC(11,2),
+    totpcm NUMERIC(12,2),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE proped (
+    numped VARCHAR(6),
+    codpro VARCHAR(5),
+    cbarra VARCHAR(13),
+    desven VARCHAR(45),
+    quaped NUMERIC(12,3),
+    cusped NUMERIC(11,2),
+    valped NUMERIC(11,2),
+    totped NUMERIC(12,2),
+    cmpped NUMERIC(11,2),
+    aliecf VARCHAR(3),
+    comped NUMERIC(11,2),
+    baipro VARCHAR(1),
+    devpro VARCHAR(1),
+    e_atua NUMERIC(11,2),
+    regist INTEGER,
+    usucad VARCHAR(4),
+    usualt VARCHAR(4)
+);
+
+CREATE TABLE controle (
+    nomemp VARCHAR(40),
+    fanemp VARCHAR(40),
+    endemp VARCHAR(40),
+    baiemp VARCHAR(30),
+    cidemp VARCHAR(30),
+    estemp VARCHAR(2),
+    cepemp VARCHAR(8),
+    fonemp VARCHAR(13),
+    faxemp VARCHAR(13),
+    celemp VARCHAR(13),
+    proemp VARCHAR(40),
+    cgcemp VARCHAR(14),
+    cgfemp VARCHAR(14),
+    email VARCHAR(40),
+    home VARCHAR(40),
+    impres VARCHAR(10),
+    mensa1 VARCHAR(40),
+    mensa2 VARCHAR(40),
+    taxser NUMERIC(11,2),
+    impfis VARCHAR(1),
+    porfis VARCHAR(1),
+    perfis VARCHAR(1),
+    leresp VARCHAR(1),
+    procdb VARCHAR(1),
+    prodec INTEGER,
+    entcdb VARCHAR(1),
+    vencdb VARCHAR(1),
+    cdbaut VARCHAR(1),
+    cliven VARCHAR(5),
+    ppgven VARCHAR(4),
+    funven VARCHAR(4),
+    mvfven VARCHAR(4),
+    conven VARCHAR(4),
+    fpgven VARCHAR(1),
+    estbai VARCHAR(1),
+    estzer VARCHAR(1),
+    vunbai VARCHAR(1),
+    dtvend VARCHAR(1),
+    evrven VARCHAR(1),
+    usacom VARCHAR(1),
+    comr_v VARCHAR(1),
+    evrcom VARCHAR(1),
+    rcbfit VARCHAR(1),
+    orcfit VARCHAR(1),
+    crnfit VARCHAR(1),
+    cliecv VARCHAR(1),
+    clisex VARCHAR(1),
+    asscli VARCHAR(1),
+    ipreti VARCHAR(1),
+    tqtpro VARCHAR(1),
+    impriv VARCHAR(1),
+    impric VARCHAR(1),
+    imprid VARCHAR(1),
+    imprin VARCHAR(1),
+    regprg VARCHAR(9),
+    regult VARCHAR(10),
+    reglib VARCHAR(3),
+    regver VARCHAR(14),
+    pulbob INTEGER,
+    aficha INTEGER,
+    aprote INTEGER,
+    nrvias INTEGER,
+    pbolet NUMERIC(11,2),
+    instr1 VARCHAR(55),
+    instr2 VARCHAR(55),
+    instr3 VARCHAR(55),
+    instr4 VARCHAR(55),
+    instr5 VARCHAR(55),
+    instr6 VARCHAR(55),
+    instr8 NUMERIC(11,2),
+    dteven DATE,
+    clitpr VARCHAR(2),
+    clilcr VARCHAR(2),
+    clides NUMERIC(13,2),
+    ppgjur VARCHAR(1),
+    ptscli NUMERIC(13,2),
+    cupcli NUMERIC(13,2),
+    dtfech DATE,
+    difech INTEGER,
+    tsiste VARCHAR(1)
+);

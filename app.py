@@ -3,13 +3,13 @@ from backend.config import Config
 from dotenv import load_dotenv
 
 from backend.extensions import db
-from backend.modules.cadastros import Cliente
+from backend.models import Cliente
 
 
 load_dotenv()
 
 def create_app():
-    app = Flask(__name__, template_folder='../templates')
+    app = Flask(__name__, template_folder='templates')
     app.config.from_object(Config)
 
     db.init_app(app)
